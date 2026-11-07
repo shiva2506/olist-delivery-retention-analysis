@@ -40,7 +40,7 @@ olist-delivery-retention-analysis/
 │   ├── load_to_mysql.py
 │   ├── export_data.py
 │   └── stats_check.py
-├── dashboard/           Power BI file and screenshot
+├── [Dashboard](dashboard.png)/           Power BI file and screenshot
 └── memo/                one-page recommendation memo
 ```
 
@@ -141,9 +141,9 @@ Two-proportion z-test: z = -1.461, **p = 0.144**. The gap is not statistically c
 
 ## 10. Dashboard
 
-![Dashboard](dashboard/dashboard.png)
+![Dashboard](dashboard.png)
 
-*(Screenshot to be added.)* The Power BI page has four cards (delivered orders, late rate, average review, repeat rate), a state slicer, and charts for review by delivery delay, bad review rate (late vs on time), late rate by state, and late orders by state.
+ The Power BI page has four cards (delivered orders, late rate, average review, repeat rate), a state slicer, and charts for review by delivery delay, bad review rate (late vs on time), late rate by state, and late orders by state.
 
 <details>
 <summary>Power BI measures and columns (DAX)</summary>
